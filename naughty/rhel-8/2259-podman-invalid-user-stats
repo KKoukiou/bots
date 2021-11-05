@@ -1,6 +1,6 @@
   File "test/check-application", line *, in testLifecycleOperationsUser
     self._testLifecycleOperations(False)
   File "test/check-application", line *, in _testLifecycleOperations
-    self.assertEqual(cpu, "n/a")
+    b.wait(lambda: self.getContainerAttr("busybox:latest", "CPU") != "")
 *
-AssertionError: '0.00%' != 'n/a'
+testlib.Error: timed out waiting for predicate to become true
