@@ -31,6 +31,7 @@ ALLOWLIST = {
     'mvollmer',
     'poncovka',
     'ptoscano',
+    'r0x0d',
     'regexowl',
     'rvykydal',
     'skobyda',
